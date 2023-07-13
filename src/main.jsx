@@ -5,7 +5,9 @@ import './index.css'
 
 const apiHost = import.meta.env.VITE_API_HOST;
 
-console.log(apiHost);
+fetch(`${apiHost}/test`)
+  .then(res => res.text())
+  .then(data => console.log(data));
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
