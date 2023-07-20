@@ -1,7 +1,8 @@
-function Header() {
+import Navbar from "./Navbar";
+
+export default function Header() {
     return <header>
-        React Templet
+        <Navbar />
     </header>
 }
 
-export default Header;
