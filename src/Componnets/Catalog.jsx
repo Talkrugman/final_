@@ -1,11 +1,12 @@
+// cart whit option to change amount for the user
 import { useDispatch } from 'react-redux';
 import { addProduct } from '../slices/cartSlice';
 import { useSelector } from 'react-redux'
 
 const products = [
-    { id: '1', name: 'milk', price: 10 },
-    { id: '2', name: 'bread', price: 20 },
-    { id: '3', name: 'eggs', price: 30 }
+    { id: '1', name: 'home made rainbow cake - gloten free', price: 99 },
+    { id: '2', name: 'home made circle cake - gloten free', price: 99 },
+    { id: '3', name: 'home made english cake - gloten free', price: 99 }
 ]
 export default function Catalog() { 
     <h1>Catalog</h1>

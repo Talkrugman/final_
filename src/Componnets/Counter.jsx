@@ -1,3 +1,4 @@
+// shopping cart
 import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment } from '../slices/counterSlice'
 

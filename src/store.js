@@ -1,3 +1,4 @@
+// shopping cart
 import { configureStore } from "@reduxjs/toolkit";
 import counterReducer from "./slices/cartSlice";
 import cartReducer from "./slices/cartSlice";
