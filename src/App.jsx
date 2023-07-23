@@ -1,6 +1,5 @@
 // import { useState } from 'react'
 import Header from './Componnets/Header'
-import Main from './Componnets/Main'
 // import Main from './Componnets/Main'
 import Footer from './Componnets/Footer'
 import { Routes, Route } from 'react-router-dom'
@@ -18,7 +17,7 @@ function App() {
         <Route path='/cart' element={<Cart />} />
       </Routes>
     </main>
-    <Main />
+    {/* <Main /> */}
     <Footer />
   </>
   )
