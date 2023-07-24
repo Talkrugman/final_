@@ -8,7 +8,7 @@ import Catalog from './Componnets/Catalog'
 import Cart from './Componnets/Cart'
 
 function App() {
-  return (<>
+  return (<div className="bg-gray-100">
     <Header />
     <main>
       <Routes>
@@ -19,7 +19,7 @@ function App() {
     </main>
     {/* <Main /> */}
     <Footer />
-  </>
+  </div>
   )
 }
 
