@@ -13,8 +13,12 @@ function App() {
     <main>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/products/id' element={<Product />} />
         <Route path='/products' element={<Catalog />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/about' element={<About />} />
       </Routes>
     </main>
     {/* <Main /> */}
